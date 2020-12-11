@@ -26,11 +26,9 @@ def login_wits(driver):
 
 def start_wits(driver, year, flow, HS_Code, error_log, success_log):
     try:
-        start_time = time.time()
-        # 将未完成的写入error_log
-        f = open(error_log, 'a')
-        # 将已经完成的写入success_log
-        f_success = open(success_log, 'a')
+        start_time = time.time()            # 记录时间
+        f = open(error_log, 'a')            # 将未完成的写入error_log
+        f_success = open(success_log, 'a')  # 将已经完成的写入success_log
 
         # 重定位网站
         driver.get(u'http://wits.worldbank.org/WITS/WITS/QuickQuery/ComtradeByProduct/ComtradeByProduct.aspx?Page=COMTRADEByProduct')
@@ -195,12 +193,10 @@ def start_wits(driver, year, flow, HS_Code, error_log, success_log):
         return 0
 
 
-def HS_start(HS_Code, error_log, success_log):
+def HS_start(HS_Code, year, flow, error_log, success_log):
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
     driver = webdriver.Chrome(chrome_options=options)
     login_wits(driver)
-    for year in range(1996, 2019):
-        for flow in range(1, 5):
-            start_wits(driver, str(year), str(flow), str(HS_Code), error_log, success_log)
+    start_wits(driver, str(year), str(flow), str(HS_Code), error_log, success_log)
     driver.quit()
