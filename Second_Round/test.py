@@ -38,11 +38,28 @@ def create_line():
 def create_perform():
     for i in range(10):
         f = open("perform_" + str(i+1) + ".py", "w")
-        f.write("import perform_number")
+        f.write("from Second_Round.csv_perform import perform_number")
         f.write("\n")
         f.write("\n")
         f.write("perform_number.perform("+str(i+1)+")")
         f.write("\n")
+        f.close()
+
+
+def create_judge():
+    for i in range(10):
+        f = open("judge_" + str(i+1) + ".py", "w")
+        f.write("import subprocess\n")
+        f.write("import os\n")
+        f.write("\n")
+        f.write('filename = "perform_' + str(i+1) + '.py"\n')
+        f.write("\n")
+        f.write("while True:\n")
+        f.write("   p = subprocess.Popen('python '+filename, shell=True).wait()\n")
+        f.write("   if p != 0:\n")
+        f.write("       continue\n")
+        f.write("   else:\n")
+        f.write('       os.system("python " + filename)\n')
         f.close()
 
 
@@ -51,5 +68,6 @@ if __name__ == '__main__':
     # create_success()
     # create_error()
     # create_line()
-    create_perform()
+    # create_perform()
+    create_judge()
     # sec_main_wits.CSV_start("test.csv", "2_error_log/error_1.txt",  "2_success_log/success_1.txt",  "line_log/linelog_1.txt")
