@@ -1,0 +1,693 @@
+Error:Cannot partner 961330_1996_1
+Error: job name time out 961330_1996_2
+Error:Cannot partner 961330_1996_4
+Error: flow_select time out 961330_1997_2
+Error: unknown error 961330_1997_3
+Error:Cannot partner 961330_1997_4
+Error: flow_select time out 961330_1998_2
+Error:Cannot partner 961330_1998_4
+Error: year_select time out 961330_1999_2
+Error:Cannot partner 961330_1999_4
+Error:Cannot partner 961330_2000_4
+Error: tier_select time out 961330_2001_1
+Error: flow_select time out 961330_2001_2
+Error: unknown error 961330_2001_3
+Warning:alter time out 961330_2001_4
+Error: unknown error 961330_2002_1
+Error: job name time out 961330_2003_1
+Error: unknown error 961330_2003_2
+Error: job name time out 961330_2004_2
+Error: unknown error 961330_2004_3
+Error: unknown error 961330_2006_2
+Error:Cannot partner 961330_2006_4
+Error: unknown error 961330_2007_1
+Error: hscode_select time out 961330_2008_1
+Error: job name time out 961330_2008_2
+Error: unknown error 961330_2008_3
+Warning:alter time out 961330_2009_3
+Error: unknown error 961330_2011_2
+Warning:alter time out 961330_2011_3
+Error: job name time out 961330_2012_1
+Error: unknown error 961330_2013_4
+Error: unknown error 961330_2014_1
+Warning:alter time out 961330_2014_2
+Error: unknown error 961330_2016_1
+Error: unknown error 961330_2017_1
+Warning:alter time out 961330_2018_1
+Warning:alter time out 961330_2018_2
+Error:Cannot partner 961330_2018_4
+Error: flow_select time out 961380_1996_2
+Error: unknown error 961380_1996_3
+Error: flow_select time out 961380_1996_4
+Error: unknown error 961380_1997_2
+Error:Cannot partner 961380_1997_4
+Warning:alter time out 961380_1998_1
+Error: unknown error 961380_1998_2
+Error:Cannot partner 961380_1998_4
+Error: hscode_select time out 961380_1999_1
+Error: unknown error 961380_1999_2
+Error:Cannot partner 961380_1999_4
+Error: unknown error 961380_2002_2
+Error: unknown error 961380_2002_4
+Error: flow_select time out 961380_2003_1
+Warning:alter time out 961380_2003_2
+Error: job name time out 961380_2003_3
+Error: unknown error 961380_2003_4
+Error: hscode_select time out 961380_2004_1
+Error: flow_select time out 961380_2004_2
+Error: unknown error 961380_2004_4
+Error: flow_select time out 961380_2005_1
+Error: unknown error 961380_2005_2
+Error: flow_select time out 961380_2005_3
+Warning:alter time out 961380_2005_4
+Error: unknown error 961380_2006_2
+Warning:alter time out 961380_2006_4
+Warning:alter time out 961380_2007_2
+Error: year_select time out 961380_2008_2
+Warning:alter time out 961380_2008_3
+Error: unknown error 961380_2008_4
+Error: job name time out 961380_2009_1
+Error: hscode_select time out 961380_2009_4
+Error: year_select time out 961380_2010_1
+Error:Cannot partner 961380_2010_2
+Error: unknown error 961380_2010_3
+Error:Cannot partner 961380_2011_1
+Error: year_select time out 961380_2012_1
+Error: hscode_select time out 961380_2013_1
+Error: year_select time out 961380_2013_3
+Error: unknown error 961380_2014_1
+Error: unknown error 961380_2015_4
+Error:Cannot partner 961380_2016_1
+Error: unknown error 961380_2016_3
+Error:Cannot partner 961380_2017_1
+Error: flow_select time out 961380_2017_3
+Error: job name time out 961380_2017_4
+Error:Cannot partner 961380_2018_1
+Error: job name time out 961380_2018_2
+Error:Cannot partner 961380_2018_4
+Error: job name time out 961390_1996_3
+Error:Cannot partner 961390_1996_4
+Error: unknown error 961390_1997_4
+Error:Cannot partner 961390_1998_1
+Error: job name time out 961390_1998_2
+Error: unknown error 961390_1998_3
+Error:Cannot partner 961390_1998_4
+Error:Cannot partner 961390_1999_1
+Error:Cannot partner 961390_1999_4
+Warning:alter time out 961390_2000_2
+Warning:alter time out 961390_2000_3
+Warning:alter time out 961390_2000_4
+Warning:alter time out 961390_2001_2
+Warning:alter time out 961390_2002_2
+Error:Cannot partner 961390_2002_4
+Error: unknown error 961390_2003_1
+Error:Cannot partner 961390_2003_2
+Error: year_select time out 961390_2003_4
+Error: unknown error 961390_2004_1
+Error: job name time out 961390_2004_3
+Warning:alter time out 961390_2004_4
+Error:Cannot partner 961390_2005_1
+Warning:alter time out 961390_2007_1
+Error: hscode_select time out 961390_2007_2
+Error: unknown error 961390_2007_4
+Error: unknown error 961390_2008_4
+Warning:alter time out 961390_2009_1
+Error: hscode_select time out 961390_2009_2
+Error: unknown error 961390_2009_3
+Error: unknown error 961390_2010_2
+Error:Cannot partner 961390_2010_4
+Warning:alter time out 961390_2011_3
+Error: unknown error 961390_2013_1
+Warning:alter time out 961390_2013_2
+Error: unknown error 961390_2013_4
+Error: flow_select time out 961390_2014_2
+Error: tier_select time out 961390_2015_1
+Error: unknown error 961390_2015_2
+Error: hscode_select time out 961390_2015_3
+Error: unknown error 961390_2015_4
+Error: unknown error 961390_2016_1
+Error:Cannot partner 961390_2016_3
+Error: hscode_select time out 961410_1996_1
+Error: hscode_select time out 961410_1996_2
+Error: tier_select time out 961410_1996_3
+Error: unknown error 961410_1996_4
+Error: unknown error 961410_1997_1
+Error: hscode_select time out 961410_1997_2
+Error: hscode_select time out 961410_1997_3
+Error: hscode_select time out 961410_1997_4
+Error: hscode_select time out 961410_1998_1
+Error: hscode_select time out 961410_1998_2
+Error: hscode_select time out 961410_1998_3
+Error: hscode_select time out 961410_1998_4
+Error: hscode_select time out 961410_1999_1
+Error: hscode_select time out 961410_1999_2
+Error: hscode_select time out 961410_1999_3
+Error: hscode_select time out 961410_1999_4
+Error: hscode_select time out 961410_2000_1
+Error: hscode_select time out 961410_2000_2
+Error: hscode_select time out 961410_2000_3
+Error: year_select time out 961410_2000_4
+Error: hscode_select time out 961410_2001_1
+Error: hscode_select time out 961410_2001_2
+Error: hscode_select time out 961410_2001_3
+Error: hscode_select time out 961410_2001_4
+Error: flow_select time out 961410_2002_1
+Error: hscode_select time out 961410_2002_2
+Error: hscode_select time out 961410_2002_3
+Error: hscode_select time out 961410_2002_4
+Error: hscode_select time out 961410_2003_1
+Error: hscode_select time out 961410_2003_2
+Error: unknown error 961410_2003_3
+Error: hscode_select time out 961410_2003_4
+Error: hscode_select time out 961410_2004_1
+Error: flow_select time out 961410_2004_2
+Error: unknown error 961410_2004_3
+Error: hscode_select time out 961410_2004_4
+Error: hscode_select time out 961410_2005_1
+Error: hscode_select time out 961410_2005_2
+Error: hscode_select time out 961410_2005_3
+Error: unknown error 961410_2005_4
+Error: hscode_select time out 961410_2006_1
+Error: hscode_select time out 961410_2006_2
+Error: hscode_select time out 961410_2006_3
+Error: hscode_select time out 961410_2006_4
+Error: hscode_select time out 961410_2007_1
+Error: hscode_select time out 961410_2007_2
+Error: hscode_select time out 961410_2007_3
+Error: hscode_select time out 961410_2007_4
+Error: hscode_select time out 961410_2008_1
+Error: hscode_select time out 961410_2008_2
+Error: hscode_select time out 961410_2008_3
+Error: tier_select time out 961410_2008_4
+Error: hscode_select time out 961410_2009_1
+Error: hscode_select time out 961410_2009_2
+Error: hscode_select time out 961410_2009_3
+Error: hscode_select time out 961410_2009_4
+Error: hscode_select time out 961410_2010_1
+Error: hscode_select time out 961410_2010_2
+Error: hscode_select time out 961410_2010_3
+Error: hscode_select time out 961410_2010_4
+Error: hscode_select time out 961410_2011_1
+Error: hscode_select time out 961410_2011_2
+Error: hscode_select time out 961410_2011_3
+Error: hscode_select time out 961410_2011_4
+Error: hscode_select time out 961410_2012_1
+Error: hscode_select time out 961410_2012_2
+Error: hscode_select time out 961410_2012_3
+Error: hscode_select time out 961410_2012_4
+Error: hscode_select time out 961410_2013_1
+Error: hscode_select time out 961410_2013_2
+Error: flow_select time out 961410_2013_3
+Error: hscode_select time out 961410_2013_4
+Error: hscode_select time out 961410_2014_1
+Error: hscode_select time out 961410_2014_2
+Error: hscode_select time out 961410_2014_3
+Error: hscode_select time out 961410_2014_4
+Error: hscode_select time out 961410_2015_1
+Error: unknown error 961410_2015_2
+Error: year_select time out 961410_2015_3
+Error: hscode_select time out 961410_2015_4
+Error: hscode_select time out 961410_2016_1
+Error: unknown error 961410_2016_2
+Error: hscode_select time out 961410_2016_3
+Error: unknown error 961410_2016_4
+Error: unknown error 961410_2017_1
+Error: unknown error 961410_2017_2
+Error: hscode_select time out 961410_2017_3
+Error: hscode_select time out 961410_2017_4
+Error: hscode_select time out 961410_2018_1
+Error: hscode_select time out 961410_2018_2
+Error: hscode_select time out 961410_2018_3
+Error: hscode_select time out 961410_2018_4
+Error:Cannot partner 961420_1996_3
+Error:Cannot partner 961420_1996_4
+Error:Cannot partner 961420_1997_4
+Error: unknown error 961420_1998_2
+Warning:alter time out 961420_1998_3
+Error:Cannot partner 961420_1998_4
+Error: unknown error 961420_1999_4
+Error: hscode_select time out 961420_2000_3
+Error: unknown error 961420_2000_4
+Error: year_select time out 961420_2001_3
+Error: job name time out 961420_2002_2
+Error: hscode_select time out 961420_2003_2
+Error: unknown error 961420_2003_3
+Error: job name time out 961420_2004_3
+Error: year_select time out 961420_2006_4
+Error: hscode_select time out 961420_2008_1
+Error: job name time out 961420_2008_2
+Warning:alter time out 961420_2010_3
+Warning:alter time out 961420_2011_4
+Error: unknown error 961420_2012_1
+Error:Cannot partner 961420_2012_2
+Error: unknown error 961420_2012_3
+Error:Cannot partner 961420_2012_4
+Error: tier_select time out 961420_2013_3
+Error: unknown error 961420_2013_4
+Warning:alter time out 961420_2014_1
+Error: unknown error 961420_2014_2
+Error:Cannot partner 961420_2015_2
+Error: unknown error 961420_2015_3
+Error: hscode_select time out 961420_2015_4
+Error: unknown error 961420_2016_1
+Error:Cannot partner 961420_2016_3
+Error: unknown error 961490_1996_2
+Error:Cannot partner 961490_1996_4
+Error: unknown error 961490_1997_1
+Warning:alter time out 961490_1997_3
+Error:Cannot partner 961490_1997_4
+Error: unknown error 961490_1998_1
+Error:Cannot partner 961490_1998_4
+Error:Cannot partner 961490_1999_4
+Error: unknown error 961490_2000_1
+Error:Cannot partner 961490_2000_4
+Error:Cannot partner 961490_2003_1
+Error: tier_select time out 961490_2004_1
+Error: unknown error 961490_2004_2
+Error: unknown error 961490_2004_3
+Error: unknown error 961490_2004_4
+Error:Cannot partner 961490_2005_1
+Error: job name time out 961490_2005_2
+Error: flow_select time out 961490_2005_4
+Error: unknown error 961490_2006_1
+Error: unknown error 961490_2006_3
+Error: unknown error 961490_2007_1
+Error: job name time out 961490_2007_2
+Error: unknown error 961490_2007_3
+Error: unknown error 961490_2008_2
+Error: unknown error 961490_2008_3
+Error:Cannot partner 961490_2009_1
+Warning:alter time out 961490_2009_2
+Error: year_select time out 961490_2009_3
+Warning:alter time out 961490_2009_4
+Error: unknown error 961490_2010_1
+Error: job name time out 961490_2011_1
+Warning:alter time out 961490_2012_2
+Error: unknown error 961490_2013_1
+Warning:alter time out 961490_2013_2
+Error:Cannot partner 961490_2013_3
+Error: unknown error 961490_2014_2
+Error: job name time out 961490_2014_4
+Error:Cannot partner 961490_2015_4
+Warning:alter time out 961490_2016_2
+Error: unknown error 961490_2016_3
+Error:Cannot partner 961490_2016_4
+Error: job name time out 961490_2017_3
+Warning:alter time out 961490_2017_4
+Error: tier_select time out 961490_2018_2
+Error: unknown error 961490_2018_3
+Error:Cannot partner 961511_1996_3
+Error:Cannot partner 961511_1996_4
+Error:Cannot partner 961511_1997_4
+Error:Cannot partner 961511_1998_4
+Error: unknown error 961511_1999_2
+Error:Cannot partner 961511_1999_4
+Warning:alter time out 961511_2000_2
+Warning:alter time out 961511_2000_3
+Error: job name time out 961511_2000_4
+Error: unknown error 961511_2002_1
+Error: unknown error 961511_2002_2
+Error: unknown error 961511_2002_3
+Error: unknown error 961511_2004_3
+Error: flow_select time out 961511_2004_4
+Error: unknown error 961511_2005_1
+Warning:alter time out 961511_2005_3
+Error:Cannot partner 961511_2006_1
+Warning:alter time out 961511_2006_3
+Error:Cannot partner 961511_2006_4
+Error: unknown error 961511_2007_1
+Error: unknown error 961511_2009_1
+Error:Cannot partner 961511_2009_2
+Error: tier_select time out 961511_2009_4
+Warning:alter time out 961511_2010_3
+Error:Cannot partner 961511_2011_3
+Warning:alter time out 961511_2012_3
+Error: hscode_select time out 961511_2013_1
+Error: unknown error 961511_2013_2
+Error: unknown error 961511_2015_1
+Error: job name time out 961511_2016_2
+Error: year_select time out 961511_2016_3
+Error: flow_select time out 961511_2016_4
+Error: unknown error 961511_2017_1
+Error: job name time out 961511_2018_1
+Warning:alter time out 961511_2018_3
+Error:Cannot partner 961511_2018_4
+Warning:alter time out 961519_1996_1
+Error:Cannot partner 961519_1996_4
+Error: year_select time out 961519_1997_2
+Error:Cannot partner 961519_1997_4
+Warning:alter time out 961519_1998_2
+Error: hscode_select time out 961519_1998_4
+Error:Cannot partner 961519_1999_4
+Error: tier_select time out 961519_2001_4
+Error: unknown error 961519_2002_1
+Warning:alter time out 961519_2002_2
+Error:Cannot partner 961519_2002_3
+Warning:alter time out 961519_2003_3
+Error: unknown error 961519_2004_1
+Error: tier_select time out 961519_2004_3
+Error: unknown error 961519_2004_4
+Error:Cannot partner 961519_2005_3
+Error: job name time out 961519_2006_1
+Error: flow_select time out 961519_2006_3
+Error: unknown error 961519_2006_4
+Error: tier_select time out 961519_2007_4
+Error: unknown error 961519_2008_2
+Error: unknown error 961519_2008_3
+Warning:alter time out 961519_2008_4
+Error:Cannot partner 961519_2009_1
+Error: hscode_select time out 961519_2009_2
+Error: unknown error 961519_2009_3
+Error: unknown error 961519_2010_2
+Error: job name time out 961519_2010_3
+Warning:alter time out 961519_2011_2
+Error: job name time out 961519_2011_3
+Error: tier_select time out 961519_2012_2
+Error: unknown error 961519_2012_3
+Warning:alter time out 961519_2012_4
+Error: unknown error 961519_2014_1
+Error: unknown error 961519_2015_1
+Warning:alter time out 961519_2015_2
+Error: unknown error 961519_2015_4
+Error: flow_select time out 961519_2016_3
+Error: unknown error 961519_2016_4
+Error: unknown error 961519_2017_1
+Warning:alter time out 961519_2017_4
+Error:Cannot partner 961519_2018_1
+Error: unknown error 961519_2018_4
+Error: unknown error 961590_1996_3
+Error: unknown error 961590_1996_4
+Error:Cannot partner 961590_1997_4
+Error: year_select time out 961590_1998_2
+Warning:alter time out 961590_1998_3
+Error:Cannot partner 961590_1998_4
+Error: unknown error 961590_1999_1
+Error:Cannot partner 961590_1999_4
+Warning:alter time out 961590_2000_1
+Error: flow_select time out 961590_2000_2
+Error: unknown error 961590_2000_3
+Warning:alter time out 961590_2001_2
+Error: unknown error 961590_2001_4
+Error: year_select time out 961590_2002_2
+Error: unknown error 961590_2002_3
+Error: unknown error 961590_2003_1
+Error: unknown error 961590_2003_2
+Error:Cannot partner 961590_2005_2
+Error: unknown error 961590_2006_2
+Error: job name time out 961590_2006_3
+Error:Cannot partner 961590_2006_4
+Error: hscode_select time out 961590_2007_1
+Error: flow_select time out 961590_2007_2
+Error: flow_select time out 961590_2007_4
+Error: unknown error 961590_2008_1
+Error:Cannot partner 961590_2011_3
+Error: unknown error 961590_2012_1
+Error: unknown error 961590_2012_4
+Error: unknown error 961590_2013_2
+Error:Cannot partner 961590_2014_3
+Error:Cannot partner 961590_2015_1
+Error: unknown error 961590_2015_4
+Error:Cannot partner 961590_2016_3
+Error: hscode_select time out 961590_2017_2
+Error:Cannot partner 961590_2017_4
+Error: flow_select time out 961610_1996_3
+Error: unknown error 961610_1996_4
+Error:Cannot partner 961610_1997_1
+Error: unknown error 961610_1997_2
+Error:Cannot partner 961610_1997_4
+Error:Cannot partner 961610_1998_2
+Error:Cannot partner 961610_1998_4
+Error: unknown error 961610_1999_2
+Error:Cannot partner 961610_1999_4
+Error: job name time out 961610_2000_4
+Error: unknown error 961610_2001_2
+Warning:alter time out 961610_2001_3
+Error:Cannot partner 961610_2002_4
+Error: hscode_select time out 961610_2003_2
+Error: unknown error 961610_2004_4
+Error: unknown error 961610_2005_1
+Warning:alter time out 961610_2005_2
+Error: hscode_select time out 961610_2005_3
+Warning:alter time out 961610_2006_1
+Error: unknown error 961610_2006_3
+Warning:alter time out 961610_2007_4
+Error:Cannot partner 961610_2008_2
+Error: job name time out 961610_2008_3
+Error: unknown error 961610_2009_1
+Error: unknown error 961610_2010_2
+Error: unknown error 961610_2010_3
+Error: unknown error 961610_2011_1
+Error: flow_select time out 961610_2011_2
+Error: unknown error 961610_2011_3
+Warning:alter time out 961610_2012_1
+Warning:alter time out 961610_2012_4
+Warning:alter time out 961610_2013_1
+Error: unknown error 961610_2013_2
+Warning:alter time out 961610_2014_1
+Warning:alter time out 961610_2014_3
+Warning:alter time out 961610_2016_1
+Warning:alter time out 961610_2016_2
+Error: unknown error 961610_2016_3
+Error: flow_select time out 961610_2017_3
+Error: year_select time out 961610_2017_4
+Error: unknown error 961610_2018_1
+Error: unknown error 961620_1996_1
+Error: unknown error 961620_1996_2
+Error: job name time out 961620_1996_3
+Error:Cannot partner 961620_1996_4
+Error: unknown error 961620_1997_4
+Error: unknown error 961620_1998_1
+Error:Cannot partner 961620_1998_4
+Error: unknown error 961620_1999_2
+Error: unknown error 961620_1999_3
+Error:Cannot partner 961620_1999_4
+Warning:alter time out 961620_2000_1
+Error: unknown error 961620_2000_3
+Error: job name time out 961620_2000_4
+Error: hscode_select time out 961620_2001_2
+Error: flow_select time out 961620_2002_1
+Error: unknown error 961620_2002_2
+Error: tier_select time out 961620_2002_4
+Error: unknown error 961620_2003_1
+Error: tier_select time out 961620_2003_3
+Error: unknown error 961620_2003_4
+Error: tier_select time out 961620_2004_3
+Error: unknown error 961620_2004_4
+Error: unknown error 961620_2005_1
+Error:Cannot partner 961620_2005_2
+Warning:alter time out 961620_2005_4
+Warning:alter time out 961620_2006_2
+Error:Cannot partner 961620_2006_3
+Error: unknown error 961620_2007_2
+Warning:alter time out 961620_2008_1
+Warning:alter time out 961620_2008_2
+Error: unknown error 961620_2008_3
+Error:Cannot partner 961620_2009_2
+Error: unknown error 961620_2010_2
+Error: unknown error 961620_2011_3
+Warning:alter time out 961620_2012_2
+Error: unknown error 961620_2012_3
+Error: unknown error 961620_2013_1
+Error: unknown error 961620_2014_1
+Error: tier_select time out 961620_2014_2
+Error:Cannot partner 961620_2014_4
+Error: hscode_select time out 961620_2015_4
+Error:Cannot partner 961620_2016_3
+Error: unknown error 961620_2017_3
+Error: unknown error 961620_2017_4
+Error: flow_select time out 961620_2018_1
+Error: unknown error 961620_2018_2
+Error: job name time out 961620_2018_3
+Error:Cannot partner 961700_1996_1
+Error: job name time out 961700_1996_2
+Error: job name time out 961700_1996_3
+Error:Cannot partner 961700_1996_4
+Error:Cannot partner 961700_1997_1
+Error:Cannot partner 961700_1997_2
+Error:Cannot partner 961700_1997_4
+Warning:alter time out 961700_1998_2
+Error:Cannot partner 961700_1998_4
+Error:Cannot partner 961700_1999_4
+Error: tier_select time out 961700_2000_1
+Error: unknown error 961700_2000_2
+Error:Cannot partner 961700_2001_4
+Warning:alter time out 961700_2002_1
+Error: hscode_select time out 961700_2002_2
+Error:Cannot partner 961700_2005_2
+Error: year_select time out 961700_2005_3
+Error: job name time out 961700_2006_4
+Warning:alter time out 961700_2010_2
+Error:Cannot partner 961700_2010_3
+Error: unknown error 961700_2011_3
+Error: unknown error 961700_2012_3
+Error: unknown error 961700_2013_2
+Error: unknown error 961700_2015_1
+Error: tier_select time out 961700_2016_2
+Error: unknown error 961700_2016_3
+Warning:alter time out 961800_1996_2
+Error:Cannot partner 961800_1996_3
+Error: unknown error 961800_1996_4
+Error: job name time out 961800_1997_2
+Warning:alter time out 961800_1997_3
+Error:Cannot partner 961800_1997_4
+Error: unknown error 961800_1998_3
+Error:Cannot partner 961800_1998_4
+Error: tier_select time out 961800_1999_1
+Error: unknown error 961800_1999_2
+Error:Cannot partner 961800_1999_4
+Error: hscode_select time out 961800_2002_2
+Error: unknown error 961800_2002_3
+Error:Cannot partner 961800_2003_1
+Error: flow_select time out 961800_2004_1
+Error:Cannot partner 961800_2005_3
+Error:Cannot partner 961800_2010_1
+Error: job name time out 961800_2012_1
+Error: hscode_select time out 961800_2013_3
+Error: unknown error 961800_2013_4
+Warning:alter time out 961800_2016_1
+Error:Cannot partner 961800_2017_4
+Error: hscode_select time out 961800_2018_1
+Error: unknown error 961800_2018_2
+Error:Cannot partner 970110_1996_4
+Error:Cannot partner 970110_1997_4
+Error: unknown error 970110_1998_1
+Error: unknown error 970110_1998_4
+Error: job name time out 970110_1999_1
+Error:Cannot partner 970110_1999_4
+Warning:alter time out 970110_2000_2
+Warning:alter time out 970110_2001_2
+Error: unknown error 970110_2001_4
+Error: flow_select time out 970110_2002_4
+Error: unknown error 970110_2003_1
+Error: unknown error 970110_2003_3
+Error: unknown error 970110_2003_4
+Error: job name time out 970110_2004_1
+Error: unknown error 970110_2005_2
+Warning:alter time out 970110_2007_1
+Error: flow_select time out 970110_2010_3
+Error: unknown error 970110_2010_4
+Error:Cannot partner 970110_2012_4
+Error: unknown error 970110_2013_1
+Error: unknown error 970110_2013_2
+Error: unknown error 970110_2016_4
+Error: unknown error 970110_2017_3
+Error: unknown error 970110_2018_1
+Error: flow_select time out 970190_1996_3
+Error: unknown error 970190_1996_4
+Error: unknown error 970190_1997_4
+Error: tier_select time out 970190_1998_2
+Error: unknown error 970190_1998_3
+Error:Cannot partner 970190_1998_4
+Error:Cannot partner 970190_1999_4
+Warning:alter time out 970190_2001_1
+Error: unknown error 970190_2004_2
+Error: unknown error 970190_2004_3
+Warning:alter time out 970190_2005_2
+Warning:alter time out 970190_2006_3
+Error: unknown error 970190_2009_2
+Warning:alter time out 970190_2011_2
+Warning:alter time out 970190_2011_4
+Error: hscode_select time out 970190_2013_1
+Error: unknown error 970190_2013_2
+Error: year_select time out 970190_2014_4
+Warning:alter time out 970190_2016_4
+Warning:alter time out 970190_2017_1
+Error:Cannot partner 970200_1996_4
+Error:Cannot partner 970200_1997_4
+Error: unknown error 970200_1998_1
+Error: unknown error 970200_1998_2
+Error:Cannot partner 970200_1998_4
+Error: flow_select time out 970200_1999_4
+Error: unknown error 970200_2000_1
+Error:Cannot partner 970200_2000_2
+Warning:alter time out 970200_2003_1
+Warning:alter time out 970200_2003_3
+Error: unknown error 970200_2004_1
+Error: hscode_select time out 970200_2006_2
+Error: unknown error 970200_2006_3
+Error: job name time out 970200_2006_4
+Error: unknown error 970200_2009_1
+Error: unknown error 970200_2011_1
+Error: unknown error 970200_2011_3
+Error: year_select time out 970200_2012_1
+Warning:alter time out 970200_2012_3
+Error: unknown error 970200_2014_3
+Error: hscode_select time out 970200_2015_4
+Error: unknown error 970200_2016_4
+Error: unknown error 970300_1996_4
+Error:Cannot partner 970300_1997_4
+Error:Cannot partner 970300_1998_4
+Error:Cannot partner 970300_1999_4
+Error: tier_select time out 970300_2004_2
+Error: unknown error 970300_2004_3
+Warning:alter time out 970300_2005_1
+Warning:alter time out 970300_2005_2
+Error: flow_select time out 970300_2008_1
+Error: unknown error 970300_2008_2
+Error: job name time out 970300_2013_4
+Error:Cannot partner 970300_2015_2
+Error: year_select time out 970300_2017_2
+Error: year_select time out 970400_1996_1
+Error: unknown error 970400_1996_2
+Error:Cannot partner 970400_1996_4
+Error:Cannot partner 970400_1997_4
+Error: unknown error 970400_1998_3
+Error:Cannot partner 970400_1998_4
+Error:Cannot partner 970400_1999_4
+Warning:alter time out 970400_2002_2
+Error: year_select time out 970400_2005_2
+Error: unknown error 970400_2008_4
+Error: unknown error 970400_2009_4
+Warning:alter time out 970400_2010_1
+Error:Cannot partner 970400_2011_2
+Warning:alter time out 970400_2012_2
+Error: unknown error 970400_2013_2
+Error: unknown error 970400_2015_1
+Warning:alter time out 970400_2016_1
+Warning:alter time out 970400_2016_3
+Error:Cannot partner 970400_2018_1
+Error: unknown error 970400_2018_4
+Error:Cannot partner 970500_1996_4
+Error: job name time out 970500_1997_3
+Error:Cannot partner 970500_1997_4
+Error:Cannot partner 970500_1998_4
+Warning:alter time out 970500_1999_1
+Error:Cannot partner 970500_1999_4
+Warning:alter time out 970500_2000_1
+Error: unknown error 970500_2001_1
+Error: year_select time out 970500_2002_4
+Error: unknown error 970500_2005_4
+Error:Cannot partner 970500_2006_3
+Error: unknown error 970500_2007_4
+Error: job name time out 970500_2008_1
+Error: job name time out 970500_2008_3
+Warning:alter time out 970500_2009_1
+Error: unknown error 970500_2010_3
+Error: unknown error 970500_2010_4
+Error: flow_select time out 970500_2012_4
+Error: unknown error 970500_2013_1
+Warning:alter time out 970500_2013_4
+Error: unknown error 970500_2014_3
+Warning:alter time out 970500_2015_3
+Error: unknown error 970500_2015_4
+Error: job name time out 970500_2017_2
+Error:Cannot partner 970500_2018_2
+Error: unknown error 970500_2018_4
+Error: unknown error 97060_1996_1
+Error: unknown error 97060_1996_2
+Error: unknown error 97060_1996_3
+Error:Cannot partner 97060_1996_4
+Error:Cannot partner 97060_1997_4
+Error:Cannot partner 97060_1998_4
+Error:Cannot partner 97060_1999_4
+Error: unknown error 97060_2000_1
+Error: unknown error 97060_2003_2
+Error: year_select time out 97060_2003_3
+Error: job name time out 97060_2005_1
+Error: hscode_select time out 97060_2006_4
+Error: unknown error 97060_2007_1
+Error: unknown error 97060_2009_1
+Error:Cannot partner 97060_2010_3
+Error: hscode_select time out 97060_2012_4
+Error: unknown error 97060_2013_1
+Warning:alter time out 97060_2015_2
