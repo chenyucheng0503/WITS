@@ -1,4 +1,5 @@
-import sec_main_wits
+from Second_Round import sec_main_wits
+import os
 
 
 def read_csv(csv_path):
@@ -55,11 +56,11 @@ def create_judge():
         f.write('filename = "perform_' + str(i+1) + '.py"\n')
         f.write("\n")
         f.write("while True:\n")
-        f.write("   p = subprocess.Popen('python '+filename, shell=True).wait()\n")
-        f.write("   if p != 0:\n")
-        f.write("       continue\n")
-        f.write("   else:\n")
-        f.write('       os.system("python " + filename)\n')
+        f.write("    p = subprocess.Popen('python '+filename, shell=True).wait()\n")
+        f.write("    if p != 0:\n")
+        f.write("        continue\n")
+        f.write("    else:\n")
+        f.write('        os.system("python " + filename)\n')
         f.close()
 
 
@@ -69,5 +70,11 @@ if __name__ == '__main__':
     # create_error()
     # create_line()
     # create_perform()
-    create_judge()
-    # sec_main_wits.CSV_start("test.csv", "2_error_log/error_1.txt",  "2_success_log/success_1.txt",  "line_log/linelog_1.txt")
+    # create_judge()
+
+    path = os.getcwd()
+    csv_file = os.path.join(path, "csv", "csv_1.csv")
+    error_file = os.path.join(path, "2_error_log", "error_1.txt")
+    success_file = os.path.join(path, "2_success_log", "success_1.txt")
+    linelog_file = os.path.join(path, "line_log", "linelog_1.txt")
+    sec_main_wits.CSV_start(csv_file, error_file, success_file, linelog_file)

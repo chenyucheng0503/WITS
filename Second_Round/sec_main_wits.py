@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 import time
 import traceback
 
@@ -28,6 +29,16 @@ def login_wits(driver):
 
 def start_wits(driver, year, flow, HS_Code, error_log, success_log):
     try:
+        if_alter = EC.alert_is_present()(driver)
+        while if_alter:
+            time.sleep(0.5)
+            try:
+                driver.switch_to.alert.dismiss()
+                time.sleep(0.5)
+            except:
+                time.sleep(0.5)
+            if_alter = EC.alert_is_present()(driver)
+
         start_time = time.time()            # 记录时间
         f = open(error_log, 'a')            # 将未完成的写入error_log
         f_success = open(success_log, 'a')  # 将已经完成的写入success_log
@@ -88,7 +99,7 @@ def start_wits(driver, year, flow, HS_Code, error_log, success_log):
             f.write("Error: tier_select time out " + HS_Code + "_" + year + "_" + flow + "\n")
             return 0
 
-        """HS_Code select"""
+        """ HS_Code Select """
         driver.find_element_by_id('ctl00_MainContent_drdProduct_Input').clear()
         driver.find_element_by_id('ctl00_MainContent_drdProduct_Input').send_keys(HS_Code)
         try:
@@ -135,40 +146,62 @@ def start_wits(driver, year, flow, HS_Code, error_log, success_log):
             f.write("Error:Cannot download " + HS_Code + "_" + year + "_" + flow + "\n")
             return 0
 
-        """Download Report"""
+        """ Download Report """
         try:
             WebDriverWait(driver, 20).until(
                 EC.frame_to_be_available_and_switch_to_it('rptdownloadreport')
             )
+            # driver.switch_to.frame("rptdownloadreport")
+            print("切换成功")
         except TimeoutException:
             print("frame time out " + HS_Code + "_" + year + "_" + flow)
             f.write("Error:frame time out " + HS_Code + "_" + year + "_" + flow + "\n")
             return 0
 
         """ Job Name & Describe """
-        job_name = HS_Code + "to" + year + "to" + flow
+        job_name = str(HS_Code + "to" + year + "to" + flow)
         try:
+            time.sleep(3)
             WebDriverWait(driver, 20).until(
-                EC.presence_of_element_located((By.ID, "RptCoulmnSelection1_txtJobDescription"))
+                EC.visibility_of_element_located((By.ID, 'RptCoulmnSelection1_txtJobName'))
             )
-            WebDriverWait(driver, 20).until(
-                EC.element_to_be_clickable((By.ID, 'RptCoulmnSelection1_txtJobName'))
-            )
+            driver.find_element_by_id('RptCoulmnSelection1_txtJobName').click()
             driver.find_element_by_id('RptCoulmnSelection1_txtJobName').send_keys(job_name)
+            # driver.find_element(By.ID, "RptCoulmnSelection1_txtJobName").send_keys(Keys.ENTER)
+            # print("send OK")
+            driver.switch_to.alert.accept()
+            # print("accept OK")
+            # driver.switch_to.frame("rptdownloadreport")
+            # print("switch OK")
+            time.sleep(0.5)
             # print("名字OK")
             WebDriverWait(driver, 20).until(
-                EC.element_to_be_clickable((By.ID, 'RptCoulmnSelection1_txtJobDescription'))
+                EC.visibility_of_element_located((By.ID, 'RptCoulmnSelection1_txtJobDescription'))
             )
-            driver.find_element_by_id('RptCoulmnSelection1_txtJobDescription').send_keys(job_name)
+            driver.find_element(By.ID, "RptCoulmnSelection1_txtJobDescription").click()
+            driver.find_element(By.ID, "RptCoulmnSelection1_txtJobDescription").send_keys("test")
+            # ActionChains(driver).click(describe_element).send_keys_to_element(describe_element, job_name).perform()
             # print("描述OK")
         except TimeoutException:
             print("job name time out " + HS_Code + "_" + year + "_" + flow)
             f.write("Error: job name time out " + HS_Code + "_" + year + "_" + flow + "\n")
             return 0
+        except UnexpectedAlertPresentException:
+            if_alter = EC.alert_is_present()(driver)
+            while if_alter:
+                time.sleep(0.5)
+                try:
+                    driver.switch_to.alert.dismiss()
+                    time.sleep(0.5)
+                except:
+                    time.sleep(0.5)
+            print("No job describe alter:" + HS_Code + "_" + year + "_" + flow)
+            f.write("Error: no job describe alter " + HS_Code + "_" + year + "_" + flow + "\n")
+            return 0
 
         """ Download Click """
         try:
-            time.sleep(10)
+            # time.sleep(10)
             # print("开始下载")
             WebDriverWait(driver, 20).until(
                 EC.element_to_be_clickable((By.ID, 'RptCoulmnSelection1_btnProcessed'))
@@ -209,6 +242,16 @@ def start_wits(driver, year, flow, HS_Code, error_log, success_log):
         return 1
     except Exception as e:
         print(e)
+        # 处理弹窗，防止干扰
+        if_alter = EC.alert_is_present()(driver)
+        while if_alter:
+            time.sleep(0.5)
+            try:
+                driver.switch_to.alert.dismiss()
+                time.sleep(0.5)
+            except:
+                time.sleep(0.5)
+            if_alter = EC.alert_is_present()(driver)
         print("unknown error:" + HS_Code + "_" + year + "_" + flow)
         f.write("Error: unknown error " + HS_Code + "_" + year + "_" + flow + "\n")
         return 0
@@ -221,6 +264,7 @@ def CSV_start(csv_path, error_log, success_log, line_log):
         prefs = {'profile.default_content_setting_values.automatic_downloads': 1,
                  'profile.default_content_settings.popups': 0}
         options.add_experimental_option('prefs', prefs)
+        global driver
         driver = webdriver.Chrome(options=options)
         login_wits(driver)
 
@@ -248,5 +292,6 @@ def CSV_start(csv_path, error_log, success_log, line_log):
         print("Unknown Error！当前line为" + str(x))
         traceback.print_exc()
         f.close()
+        driver.quit()
 
 
